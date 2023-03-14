@@ -76,12 +76,12 @@
 
 @font-face {
 	font-family: 'MV Typewriter';
-	src: url('MVTypewriter-Bold.eot');
+	src: url('fonts/MVTypewriter-Bold.eot');
 	src: url('MVTypewriter-Bold.eot?#iefix') format('embedded-opentype'),
-		url('MVTypewriter-Bold.woff2') format('woff2'),
-		url('MVTypewriter-Bold.woff') format('woff'),
-		url('MVTypewriter-Bold.ttf') format('truetype'),
-		url('MVTypewriter-Bold.svg#MVTypewriter-Bold') format('svg');
+		url('fonts/MVTypewriter-Bold.woff2') format('woff2'),
+		url('fonts/MVTypewriter-Bold.woff') format('woff'),
+		url('fonts/MVTypewriter-Bold.ttf') format('truetype'),
+		url('fonts/MVTypewriter-Bold.svg') format('svg');
 	font-weight: bold;
 	font-style: italic;
 	font-display: swap;
@@ -89,12 +89,12 @@
 
 @font-face {
 	font-family: 'MV Typewriter';
-	src: url('MVTypewriter.eot');
+	src: url('fonts/MVTypewriter.eot');
 	src: url('MVTypewriter.eot?#iefix') format('embedded-opentype'),
-		url('MVTypewriter.woff2') format('woff2'),
-		url('MVTypewriter.woff') format('woff'),
-		url('MVTypewriter.ttf') format('truetype'),
-		url('MVTypewriter.svg#MVTypewriter') format('svg');
+		url('fonts/MVTypewriter.woff2') format('woff2'),
+		url('fonts/MVTypewriter.woff') format('woff'),
+		url('fonts/MVTypewriter.ttf') format('truetype'),
+		url('fonts/MVTypewriter.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
