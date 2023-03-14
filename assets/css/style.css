@@ -24,12 +24,12 @@
 
 @font-face {
 	font-family: 'Mv MAG Round XBold';
-	src: url('MvMAGXB.eot');
+	src: url('fonts/MvMAGXB.eot');
 	src: url('MvMAGXB.eot?#iefix') format('embedded-opentype'),
-		url('MvMAGXB.woff2') format('woff2'),
-		url('MvMAGXB.woff') format('woff'),
-		url('MvMAGXB.ttf') format('truetype'),
-		url('MvMAGXB.svg#MvMAGXB') format('svg');
+		url('fonts/MvMAGXB.woff2') format('woff2'),
+		url('fonts/MvMAGXB.woff') format('woff'),
+		url('fonts/MvMAGXB.ttf') format('truetype'),
+		url('fonts/MvMAGXB.svg#MvMAGXB') format('svg');
 	font-weight: bold;
 	font-style: italic;
 	font-display: swap;
@@ -37,12 +37,12 @@
 
 @font-face {
 	font-family: 'BODUKURU';
-	src: url('Munee-Light.eot');
-	src: url('Munee-Light.eot?#iefix') format('embedded-opentype'),
-		url('Munee-Light.woff2') format('woff2'),
-		url('Munee-Light.woff') format('woff'),
-		url('Munee-Light.ttf') format('truetype'),
-		url('Munee-Light.svg#Munee-Light') format('svg');
+	src: url('fonts/Munee-Light.eot');
+	src: url('fonts/Munee-Light.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Munee-Light.woff2') format('woff2'),
+		url('fonts/Munee-Light.woff') format('woff'),
+		url('fonts/Munee-Light.ttf') format('truetype'),
+		url('fonts/Munee-Light.svg#Munee-Light') format('svg');
 	font-weight: 300;
 	font-style: italic;
 	font-display: swap;
@@ -50,12 +50,12 @@
 
 @font-face {
 	font-family: 'Mv MAG Round';
-	src: url('MvMAGR.eot');
-	src: url('MvMAGR.eot?#iefix') format('embedded-opentype'),
-		url('MvMAGR.woff2') format('woff2'),
-		url('MvMAGR.woff') format('woff'),
-		url('MvMAGR.ttf') format('truetype'),
-		url('MvMAGR.svg#MvMAGR') format('svg');
+	src: url('fonts/MvMAGR.eot');
+	src: url('fonts/MvMAGR.eot?#iefix') format('embedded-opentype'),
+		url('fonts/MvMAGR.woff2') format('woff2'),
+		url('fonts/MvMAGR.woff') format('woff'),
+		url('fonts/MvMAGR.ttf') format('truetype'),
+		url('fonts/MvMAGR.svg') format('svg');
 	font-weight: bold;
 	font-style: italic;
 	font-display: swap;
@@ -63,12 +63,12 @@
 
 @font-face {
 	font-family: 'Mv MAG Round Hollow';
-	src: url('MvMAGHB.eot');
-	src: url('MvMAGHB.eot?#iefix') format('embedded-opentype'),
-		url('MvMAGHB.woff2') format('woff2'),
-		url('MvMAGHB.woff') format('woff'),
-		url('MvMAGHB.ttf') format('truetype'),
-		url('MvMAGHB.svg#MvMAGHB') format('svg');
+	src: url('fonts/MvMAGHB.eot');
+	src: url('fonts/MvMAGHB.eot?#iefix') format('embedded-opentype'),
+		url('fonts/MvMAGHB.woff2') format('woff2'),
+		url('fonts/MvMAGHB.woff') format('woff'),
+		url('fonts/MvMAGHB.ttf') format('truetype'),
+		url('fonts/MvMAGHB.svg#MvMAGHB') format('svg');
 	font-weight: 600;
 	font-style: italic;
 	font-display: swap;
@@ -101,6 +101,7 @@
 }
 
 
+
 body {
   font-family: "mv typewriter";
   color: #444444;
@@ -122,14 +123,16 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: mv bodu;
 }
 
-.dheenaki {
-	font-family: A_faruma;
-	text-align: justify;
-line-height: 40px;
+.missionvision {
+	font-family: mv typewriter;
 }
+.kobaa {
+	font-family: mv mag round hollow;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -262,35 +265,6 @@ line-height: 40px;
 
 @media (max-width: 768px) {
 
-	@font-face {
-			font-family: 'mv_typewriterbold';
-			src: url('mvtypebold-webfont.woff2') format('woff2'),
-				url('mvtypebold-webfont.woff') format('woff');
-			font-weight: normal;
-			font-style: normal;
-	
-		}
-	
-	
-	
-	
-		@font-face {
-			font-family: 'mv_typewriterregular';
-			src: url('mvtyper-webfont.woff2') format('woff2'),
-				url('mvtyper-webfont.woff') format('woff');
-			font-weight: normal;
-			font-style: normal;
-	
-		}
-
-		@font-face {
-    font-family: 'mv_boduregular';
-    src: url('mv_bodu-webfont.woff2') format('woff2'),
-         url('mv_bodu-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
   .get-started-btn {
     margin: 0 15px 0 0;
     padding: 6px 18px;
@@ -431,26 +405,7 @@ line-height: 40px;
 
 @media (max-width: 991px) {
 
-	@font-face {
-			font-family: 'mv_typewriterbold';
-			src: url('mvtypebold-webfont.woff2') format('woff2'),
-				url('mvtypebold-webfont.woff') format('woff');
-			font-weight: normal;
-			font-style: normal;
 	
-		}
-	
-	
-	
-	
-		@font-face {
-			font-family: 'mv_typewriterregular';
-			src: url('mvtyper-webfont.woff2') format('woff2'),
-				url('mvtyper-webfont.woff') format('woff');
-			font-weight: normal;
-			font-style: normal;
-	
-		}
   .mobile-nav-toggle {
     display: block;
   }
@@ -581,7 +536,7 @@ line-height: 40px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: "mv mag round hollow", sans-serif;
 }
 
 #hero h2 {
