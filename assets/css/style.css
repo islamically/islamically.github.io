@@ -30,6 +30,15 @@
 
 }
 
+@font-face {
+	font-family: 'mv_boduregular';
+	src: url('mv_bodu-webfont.woff2') format('woff2'),
+		url('mv_bodu-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
 
 
 body {
