@@ -147,7 +147,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5fcf80;
+  background: #07a081;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -735,7 +735,7 @@ section {
 --------------------------------------------------------------*/
 .why-us .content {
   padding: 30px;
-  background: #5fcf80;
+  background: #07a081;
   border-radius: 4px;
   color: #fff;
 }
@@ -779,7 +779,7 @@ section {
 .why-us .icon-boxes .icon-box i {
   font-size: 32px;
   padding: 18px;
-  color: #5fcf80;
+  color: #07a081;
   margin-bottom: 30px;
   background: #ecf9f0;
   border-radius: 50px;
@@ -831,11 +831,11 @@ section {
 }
 
 .features .icon-box:hover {
-  border-color: #5fcf80;
+  border-color: #07a081;
 }
 
 .features .icon-box:hover h3 a {
-  color: #5fcf80;
+  color: #07a081;
 }
 
 /*--------------------------------------------------------------
@@ -861,7 +861,7 @@ section {
 }
 
 .courses .course-content h3 a:hover {
-  color: #5fcf80;
+  color: #07a081;
 }
 
 .courses .course-content p {
@@ -870,18 +870,20 @@ section {
 }
 
 .courses .course-content h4 {
-  font-size: 14px;
-  background: #5fcf80;
+  font-size: 19px;
+  background: #07a081;
   padding: 7px 14px;
   color: #fff;
   margin: 0;
+	font-family: mv typewriter;
 }
 
 .courses .course-content .price {
   margin: 0;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 22px;
   color: #37423b;
+	font-family: roboto;
 }
 
 .courses .trainer {
@@ -897,8 +899,9 @@ section {
 .courses .trainer .trainer-profile span {
   padding-left: 10px;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   color: #5a6c60;
+	font-family: mv typewriter; 
 }
 
 .courses .trainer .trainer-rank {
@@ -1572,7 +1575,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #5fcf80;
+  color: #07a081;
   font-size: 18px;
   line-height: 1;
 }
@@ -1636,7 +1639,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #5fcf80;
+  background: #07a081;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1664,7 +1667,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #5fcf80;
+  background: #07a081;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
