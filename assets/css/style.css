@@ -226,6 +226,7 @@ h6 {
   z-index: 997;
   padding: 15px 0;
   box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
+	border-bottom: 2px solid #07a081;
 }
 
 #header .logo {
@@ -306,7 +307,7 @@ h6 {
   font-family: "mv bodu", sans-serif;
   font-size: 30px;
   font-weight: 500;
-  color: #37423b ;
+  color: #8c8e8d; 
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -905,8 +906,10 @@ section {
 }
 
 .courses .trainer .trainer-rank {
-  font-size: 18px;
-  color: #657a6d;
+  font-size: 16px;
+  color: #a3b0a8;
+	font-family: mv mag round;
+	font-weight: bolder;
 }
 
 /*--------------------------------------------------------------
