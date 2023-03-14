@@ -192,6 +192,27 @@ line-height: 40px;
 }
 
 @media (max-width: 768px) {
+
+	@font-face {
+			font-family: 'mv_typewriterbold';
+			src: url('mvtypebold-webfont.woff2') format('woff2'),
+				url('mvtypebold-webfont.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+	
+		}
+	
+	
+	
+	
+		@font-face {
+			font-family: 'mv_typewriterregular';
+			src: url('mvtyper-webfont.woff2') format('woff2'),
+				url('mvtyper-webfont.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+	
+		}
   .get-started-btn {
     margin: 0 15px 0 0;
     padding: 6px 18px;
@@ -331,6 +352,27 @@ line-height: 40px;
 }
 
 @media (max-width: 991px) {
+
+	@font-face {
+			font-family: 'mv_typewriterbold';
+			src: url('mvtypebold-webfont.woff2') format('woff2'),
+				url('mvtypebold-webfont.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+	
+		}
+	
+	
+	
+	
+		@font-face {
+			font-family: 'mv_typewriterregular';
+			src: url('mvtyper-webfont.woff2') format('woff2'),
+				url('mvtyper-webfont.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+	
+		}
   .mobile-nav-toggle {
     display: block;
   }
