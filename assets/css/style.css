@@ -9,6 +9,29 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+	font-family: 'mv_typewriterbold';
+	src: url('mvtypebold-webfont.woff2') format('woff2'),
+		url('mvtypebold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+
+
+@font-face {
+	font-family: 'mv_typewriterregular';
+	src: url('mvtyper-webfont.woff2') format('woff2'),
+		url('mvtyper-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
