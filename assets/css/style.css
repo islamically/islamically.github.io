@@ -10,35 +10,95 @@
 # General
 --------------------------------------------------------------*/
 @font-face {
-	font-family: 'mv_typewriterbold';
-	src: url('mvtypebold-webfont.woff2') format('woff2'),
-		url('mvtypebold-webfont.woff') format('woff');
+	font-family: 'MV Bodu';
+	src: url('MVBodu.eot');
+	src: url('MVBodu.eot?#iefix') format('embedded-opentype'),
+		url('MVBodu.woff2') format('woff2'),
+		url('MVBodu.woff') format('woff'),
+		url('MVBodu.ttf') format('truetype'),
+		url('MVBodu.svg#MVBodu') format('svg');
 	font-weight: normal;
-	font-style: normal;
-
-}
-
-
-
-
-@font-face {
-	font-family: 'mv_typewriterregular';
-	src: url('mvtyper-webfont.woff2') format('woff2'),
-		url('mvtyper-webfont.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-
+	font-style: italic;
+	font-display: swap;
 }
 
 @font-face {
-	font-family: 'mv_boduregular';
-	src: url('mv_bodu-webfont.woff2') format('woff2'),
-		url('mv_bodu-webfont.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-
+	font-family: 'Mv MAG Round XBold';
+	src: url('MvMAGXB.eot');
+	src: url('MvMAGXB.eot?#iefix') format('embedded-opentype'),
+		url('MvMAGXB.woff2') format('woff2'),
+		url('MvMAGXB.woff') format('woff'),
+		url('MvMAGXB.ttf') format('truetype'),
+		url('MvMAGXB.svg#MvMAGXB') format('svg');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
 }
 
+@font-face {
+	font-family: 'BODUKURU';
+	src: url('Munee-Light.eot');
+	src: url('Munee-Light.eot?#iefix') format('embedded-opentype'),
+		url('Munee-Light.woff2') format('woff2'),
+		url('Munee-Light.woff') format('woff'),
+		url('Munee-Light.ttf') format('truetype'),
+		url('Munee-Light.svg#Munee-Light') format('svg');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Mv MAG Round';
+	src: url('MvMAGR.eot');
+	src: url('MvMAGR.eot?#iefix') format('embedded-opentype'),
+		url('MvMAGR.woff2') format('woff2'),
+		url('MvMAGR.woff') format('woff'),
+		url('MvMAGR.ttf') format('truetype'),
+		url('MvMAGR.svg#MvMAGR') format('svg');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Mv MAG Round Hollow';
+	src: url('MvMAGHB.eot');
+	src: url('MvMAGHB.eot?#iefix') format('embedded-opentype'),
+		url('MvMAGHB.woff2') format('woff2'),
+		url('MvMAGHB.woff') format('woff'),
+		url('MvMAGHB.ttf') format('truetype'),
+		url('MvMAGHB.svg#MvMAGHB') format('svg');
+	font-weight: 600;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'MV Typewriter';
+	src: url('MVTypewriter-Bold.eot');
+	src: url('MVTypewriter-Bold.eot?#iefix') format('embedded-opentype'),
+		url('MVTypewriter-Bold.woff2') format('woff2'),
+		url('MVTypewriter-Bold.woff') format('woff'),
+		url('MVTypewriter-Bold.ttf') format('truetype'),
+		url('MVTypewriter-Bold.svg#MVTypewriter-Bold') format('svg');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'MV Typewriter';
+	src: url('MVTypewriter.eot');
+	src: url('MVTypewriter.eot?#iefix') format('embedded-opentype'),
+		url('MVTypewriter.woff2') format('woff2'),
+		url('MVTypewriter.woff') format('woff'),
+		url('MVTypewriter.ttf') format('truetype'),
+		url('MVTypewriter.svg#MVTypewriter') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
 
 
 body {
