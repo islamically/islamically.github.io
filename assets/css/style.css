@@ -106,6 +106,7 @@ body {
   font-family: "mv typewriter";
   color: #444444;
 	line-height: 0.90cm;
+	background-color:#f3f3f3;
 }
 
 a {
@@ -548,12 +549,14 @@ h6 {
   color: #eee;
   margin: 10px 0 0 0;
   font-size: 24px;
+	font-family: mv typewriter;
+	margin-top: 25px;
 }
 
 #hero .btn-get-started {
   font-family: "mv mag round", sans-serif;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 35px;
@@ -634,8 +637,9 @@ section {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  color: #37423b;
+  font-family: mv mag round;
+  color: #07a081;
+	text-align: center;
 }
 
 .breadcrumbs {
@@ -743,7 +747,7 @@ section {
 
 .why-us .content h3 {
   font-weight: 700;
-  font-size: 34px;
+  font-size: 40px;
   margin-bottom: 30px;
 }
 
@@ -849,6 +853,8 @@ section {
 
 .courses .course-content {
   padding: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color:#ffffff;
 }
 
 .courses .course-content h3 {
@@ -857,7 +863,7 @@ section {
 }
 
 .courses .course-content h3 a {
-  color: #37423b;
+  color: #64736a;
   transition: 0.3s;
 }
 
@@ -868,6 +874,7 @@ section {
 .courses .course-content p {
   font-size: 14px;
   color: #777777;
+	margin-top:25px; 
 }
 
 .courses .course-content h4 {
@@ -883,7 +890,7 @@ section {
   margin: 0;
   font-weight: 700;
   font-size: 22px;
-  color: #37423b;
+  color: #64736a;
 	font-family: roboto;
 }
 
@@ -898,11 +905,11 @@ section {
 }
 
 .courses .trainer .trainer-profile span {
-  padding-left: 10px;
+  padding-left: 0;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 15px;
   color: #5a6c60;
-	font-family: mv typewriter; 
+	font-family: mv mag round; 
 }
 
 .courses .trainer .trainer-rank {
