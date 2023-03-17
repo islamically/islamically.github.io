@@ -592,6 +592,12 @@ h6 {
     font-size: 18px;
     line-height: 24px;
   }
+
+	.footer-top {
+		background-color:red;
+		text-align:center;
+		
+	}
 	
 }
 
