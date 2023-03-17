@@ -110,7 +110,7 @@ body {
 }
 
 a {
-  color: #5fcf80;
+  color: #777777;
   text-decoration: none;
 }
 
@@ -125,7 +125,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: mv bodu;
+  font-family: mv mag round;
 }
 
 .missionvision {
@@ -592,6 +592,7 @@ h6 {
     font-size: 18px;
     line-height: 24px;
   }
+	
 }
 
 /*--------------------------------------------------------------
@@ -1559,18 +1560,21 @@ section {
 
 #footer .footer-top .footer-contact p {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 0.85cm;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: mv typewriter;
   color: #777777;
+	padding-top: 15px;
 }
 
 #footer .footer-top h4 {
-  font-size: 16px;
+  font-size: 25px;
   font-weight: bold;
-  color: #444444;
+  color: #07a081;
   position: relative;
   padding-bottom: 12px;
+
+	
 }
 
 #footer .footer-top .footer-links {
@@ -1604,7 +1608,7 @@ section {
   color: #777777;
   transition: 0.3s;
   display: inline-block;
-  line-height: 1;
+  line-height: 0.7cm;
 }
 
 #footer .footer-top .footer-links ul a:hover {
@@ -1614,14 +1618,26 @@ section {
 
 #footer .footer-newsletter {
   font-size: 15px;
+
+	
 }
 
 #footer .footer-newsletter h4 {
-  font-size: 16px;
+  font-size: 25px;
   font-weight: bold;
-  color: #444444;
+  color: #07a081;
   position: relative;
   padding-bottom: 12px;
+}
+
+#footer .footer-newsletter ul {
+	font-size: 15px;
+	font-weight: none;
+	color: #07a081;
+	position: relative;
+	padding-bottom: 12px;
+	padding-right:0px;
+
 }
 
 #footer .footer-newsletter form {
