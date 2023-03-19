@@ -110,7 +110,7 @@ body {
 }
 
 a {
-  color: #777777;
+  color: #f3f3f3;
   text-decoration: none;
 }
 
@@ -1542,14 +1542,16 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: #37423b;
+  color: #f3f3f3;
   font-size: 14px;
   background: #eef0ef;
+	background-color:#07a081;
+	
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #f9faf9;
+  background: #07a081;
 }
 
 #footer .footer-top .footer-contact {
@@ -1569,7 +1571,7 @@ section {
   line-height: 0.85cm;
   margin-bottom: 0;
   font-family: mv typewriter;
-  color: #777777;
+  color: #f3f3f3;
 	padding-top: 15px;
 }
 
@@ -1631,7 +1633,7 @@ section {
 #footer .footer-newsletter h4 {
   font-size: 25px;
   font-weight: bold;
-  color: #07a081;
+  color: #f3f3f3;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1639,7 +1641,7 @@ section {
 #footer .footer-newsletter ul {
 	font-size: 15px;
 	font-weight: none;
-	color: #07a081;
+	color: #f3f3f3;
 	position: relative;
 	padding-bottom: 12px;
 	padding-right:0px;
@@ -1699,8 +1701,8 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #07a081;
-  color: #fff;
+  background: #fff;
+  color: #07a081;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
